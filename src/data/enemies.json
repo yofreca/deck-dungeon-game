@@ -1,0 +1,30 @@
+[
+  {
+    "id": "cultist",
+    "name": "Cultist",
+    "hp": 50,
+    "description": "A cultist performing dark rituals",
+    "act": 1
+  },
+  {
+    "id": "jaw_worm",
+    "name": "Jaw Worm",
+    "hp": 44,
+    "description": "A worm with massive jaws",
+    "act": 1
+  },
+  {
+    "id": "looter",
+    "name": "Looter",
+    "hp": 46,
+    "description": "A greedy bandit",
+    "act": 1
+  },
+  {
+    "id": "slime_small",
+    "name": "Small Slime",
+    "hp": 30,
+    "description": "A small acidic slime",
+    "act": 1
+  }
+]

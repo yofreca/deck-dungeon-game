@@ -1,0 +1,102 @@
+[
+  {
+    "id": "strike_r",
+    "name": "Strike",
+    "description": "Deal 6 damage.",
+    "type": "Attack",
+    "rarity": "Basic",
+    "cost": 1,
+    "upgraded": false,
+    "damage": 6,
+    "targetType": "SingleEnemy"
+  },
+  {
+    "id": "defend_r",
+    "name": "Defend",
+    "description": "Gain 5 Block.",
+    "type": "Skill",
+    "rarity": "Basic",
+    "cost": 1,
+    "upgraded": false,
+    "block": 5,
+    "targetType": "Self"
+  },
+  {
+    "id": "bash",
+    "name": "Bash",
+    "description": "Deal 8 damage. Apply 2 Vulnerable.",
+    "type": "Attack",
+    "rarity": "Basic",
+    "cost": 2,
+    "upgraded": false,
+    "damage": 8,
+    "effects": [
+      {
+        "type": "Vulnerable",
+        "amount": 2
+      }
+    ],
+    "targetType": "SingleEnemy"
+  },
+  {
+    "id": "heavy_blade",
+    "name": "Heavy Blade",
+    "description": "Deal 14 damage.",
+    "type": "Attack",
+    "rarity": "Common",
+    "cost": 2,
+    "upgraded": false,
+    "damage": 14,
+    "targetType": "SingleEnemy"
+  },
+  {
+    "id": "body_slam",
+    "name": "Body Slam",
+    "description": "Deal 10 damage.",
+    "type": "Attack",
+    "rarity": "Common",
+    "cost": 1,
+    "upgraded": false,
+    "damage": 10,
+    "targetType": "SingleEnemy"
+  },
+  {
+    "id": "iron_wave",
+    "name": "Iron Wave",
+    "description": "Gain 5 Block. Deal 5 damage.",
+    "type": "Attack",
+    "rarity": "Common",
+    "cost": 1,
+    "upgraded": false,
+    "damage": 5,
+    "block": 5,
+    "targetType": "SingleEnemy"
+  },
+  {
+    "id": "shrug_it_off",
+    "name": "Shrug It Off",
+    "description": "Gain 8 Block.",
+    "type": "Skill",
+    "rarity": "Common",
+    "cost": 1,
+    "upgraded": false,
+    "block": 8,
+    "targetType": "Self"
+  },
+  {
+    "id": "inflame",
+    "name": "Inflame",
+    "description": "Gain 2 Strength.",
+    "type": "Power",
+    "rarity": "Uncommon",
+    "cost": 1,
+    "upgraded": false,
+    "effects": [
+      {
+        "type": "Strength",
+        "amount": 2
+      }
+    ],
+    "targetType": "Self"
+  }
+]
